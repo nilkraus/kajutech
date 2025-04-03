@@ -877,3 +877,30 @@ textarea.form-control {
     height: 35px;
   }
 }
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero {
+    padding: 30px 15px;
+  }
+
+  .hero-logo {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+  }
+
+  .hero-content {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
