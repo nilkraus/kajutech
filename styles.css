@@ -115,7 +115,7 @@ body {
   animation: explosionEffect 1.5s forwards;
   margin-left: 3%;
   text-align: left;
-  white-space: nowrap;
+  white-space: normal;
   font-weight: bold;
 }
 
@@ -129,7 +129,7 @@ body {
   letter-spacing: normal;
   margin-left: 2%;
   hyphens: auto;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .hero-text {
