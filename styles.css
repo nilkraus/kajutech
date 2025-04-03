@@ -778,6 +778,34 @@ textarea.form-control {
 }
 
 /* Responsividade */
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero {
+    padding: 30px 15px;
+  }
+
+  .hero-logo {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+  }
+
+  .hero-content {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 991px) {
   .navbar {
     padding: 15px 30px;
@@ -877,9 +905,58 @@ textarea.form-control {
     height: 35px;
   }
 }
+/* RESPONSIVIDADE MOBILE */
 @media (max-width: 767px) {
   body {
     overflow-x: hidden;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .logo {
+    margin-bottom: 15px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-links li {
+    margin: 5px 10px;
+  }
+
+  .services,
+  .about,
+  .team,
+  .testimonials,
+  .contact {
+    padding: 70px 30px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
+  .page-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .testimonial-card {
+    width: 280px;
+    min-height: 300px;
+  }
+
+  .testimonial-nav button {
+    width: 35px;
+    height: 35px;
   }
 
   .hero {
@@ -887,7 +964,7 @@ textarea.form-control {
   }
 
   .hero-logo {
-    width: 100%;
+    width: 90%;
     max-width: 280px;
     margin: 0 auto;
     padding: 0;
@@ -903,4 +980,11 @@ textarea.form-control {
     width: 100%;
     margin: 0 auto;
   }
+
+  .hero-title,
+  .hero-subtitle,
+  .hero-text {
+    white-space: normal; /* Corrige quebra de texto */
+  }
 }
+
